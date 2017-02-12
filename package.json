@@ -1,0 +1,25 @@
+{
+  "name": "pet_finder_bot",
+  "version": "1.0.0",
+  "description": "A bot that tweets pets available for adoption on petfinder.com.",
+  "main": "bot.js",
+  "dependencies": {
+    "petfinder": "^0.1.1",
+    "twit": "^2.2.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pet",
+    "cat",
+    "dog",
+    "adoption",
+    "shelter",
+    "twitter",
+    "bot"
+  ],
+  "author": "Kayla Kremer",
+  "license": "MIT"
+}
