@@ -9,7 +9,7 @@ const Twit = require("twit");
 const config = require("./config.js");
 const T = new Twit(config);
 
-//Retrieves random pet every 10 minutes from petfinder.com and tweets info about pet with link
+//Retrieves random pet every hour from petfinder.com and tweets info about pet with link
 function pet(){
     petfinder.getRandomPet({animal: "dog" || "cat"}, (err, pet) => {
         const txt = `${pet.name} is available for adoption: https://www.petfinder.com/petdetail/${pet.id}`;
@@ -23,7 +23,7 @@ function pet(){
     }
 }
 
-setInterval(pet, (1000*60)*10);
+setInterval(pet, (1000*60*60);
 
 //Replies to a follower with message thanking them
 const stream = T.stream("user");
