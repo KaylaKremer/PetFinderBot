@@ -23,7 +23,7 @@ function pet(){
     }
 }
 
-setInterval(pet, (1000*60*60);
+setInterval(pet, (1000*60*60));
 
 //Replies to a follower with message thanking them
 const stream = T.stream("user");
