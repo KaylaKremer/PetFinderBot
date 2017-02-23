@@ -7,5 +7,9 @@ The bot tweets about a new random pet every hour as well as responds to tweet an
 
 Please note: Both twit (https://www.npmjs.com/package/twit) and petfinder (https://www.npmjs.com/package/petfinder) packages are required to install in order to work. API tokens have also been left out, so you will need to provide your own.
 
+The Procfile is for the bot to be deployed onto Heroku.
+
+
+
 
 
