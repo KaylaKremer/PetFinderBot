@@ -1,4 +1,4 @@
-# PetfinderBot
+# PetfinderBot :dog2:
 A Twitter bot example that tweets about pets available for adoption on petfinder.com!
 
 Live version of bot can be viewed here: https://twitter.com/petfinderbot 
